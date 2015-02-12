@@ -97,6 +97,12 @@
 ;; When in Braille chords mode, pressing a printable, non-whitespace
 ;; character that does not represent a Braille dot exits Braille chords
 ;; mode.
+;;
+;; If chorded input is not your thing, you may like to check out
+;; braille-input.el which is a contrib to the liblouis project that
+;; allows one to enter Braille patterns using abbreviations for the
+;; dot-patterns.  For example, the ⠕ pattern would be entered as
+;; `b135' using that library.
 
 ;; ########   Limitations     ############################################
 ;;
