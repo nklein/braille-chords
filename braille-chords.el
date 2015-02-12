@@ -155,8 +155,8 @@ Emacs indenting and color coding to be a question mark followed by a comment.")
 a BRAILLE PATTERN BLANK.  For example, the following two lines
 say the same thing, the first with spaces and the second with the
 blank Braille pattern:
-  ⠠⠽ ⠁⠗⠑ ⠥⠎⠬ ⠃⠗⠇⠤⠉⠓⠕⠗⠙⠎ ⠍⠕⠙⠑⠲
-⠀⠀⠠⠽⠀⠁⠗⠑⠀⠥⠎⠬⠀⠃⠗⠇⠤⠉⠓⠕⠗⠙⠎⠀⠍⠕⠙⠑⠲
+  ⠠⠽ ⠜⠑ ⠥⠎⠬ ⠃⠗⠇ ⠡⠕⠗⠙⠎ ⠍⠕⠙⠑⠲
+  ⠠⠽⠀⠜⠑⠀⠥⠎⠬⠀⠃⠗⠇⠀⠡⠕⠗⠙⠎⠀⠍⠕⠙⠑⠲
 With my current font, the second line takes up more room than the
 first.")
 
