@@ -145,7 +145,7 @@
 
 ;;; Code:
 
-(defconst semicolon (cdr (assoc "SEMICOLON" (ucs-names)))
+(defconst semicolon (char-from-name "SEMICOLON")
   "This is included here because the literal ?; is intrepreted by
 Emacs indenting and color coding to be a question mark followed by a comment.")
 
@@ -178,8 +178,7 @@ of the same Braille pattern.")
   "Whether we are currently in Braille chords mode.")
 
 ;; Constants used for cleaner code below.
-(defconst braille-pattern-blank (cdr (assoc "BRAILLE PATTERN BLANK"
-                                            (ucs-names)))
+(defconst braille-pattern-blank (char-from-name "BRAILLE PATTERN BLANK")
   "The empty Braille pattern.")
 
 ;;;###autoload
